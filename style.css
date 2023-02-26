@@ -21,7 +21,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: var(--dark-blue-1);
   color: var(--white);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 h1,
@@ -32,8 +32,8 @@ h2 {
 }
 
 h1 {
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
   padding-block-start: 1.5rem;
 }
 
@@ -85,7 +85,7 @@ address {
 
 .container,
 .container-wide {
-  max-inline-size: 500px;
+  max-inline-size: 31.25rem;
   margin-inline: auto;
   padding-inline: 2rem;
 }
@@ -106,7 +106,7 @@ address {
   display: flex;
   align-content: center;
   gap: 1rem;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 
@@ -194,12 +194,12 @@ address {
   content: '';
   background-image: url(./images/bg-quotes.png);
   background-repeat: no-repeat;
-  background-size: 20px;
+  background-size: 1.25rem;
   position: absolute;
-  top: -16px;
-  left: 36px;
-  width: 20px;
-  height: 20px;
+  top: -1rem;
+  left: 2.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .testimonials-container {
@@ -242,8 +242,8 @@ figcaption {
 .get-early-access-content {
   background-color: var(--dark-blue);
   padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 0.625rem;
+  box-shadow: 0.25rem 0.5rem 0.625rem rgba(0, 0, 0, 0.4);
   text-align: center;
 }
 
@@ -265,15 +265,15 @@ figcaption {
 .email-form input {
   border: none;
   outline: none;
-  font-size: 12px;
-  padding: 17px 1.4rem;
+  font-size: 0.75rem;
+  padding: 1.0625rem 1.4rem;
   border-radius: 3rem;
   inline-size: 100%;
 }
 
 .email-form .error-msg {
   position: absolute;
-  font-size: 11px;
+  font-size: 0.6875rem;
   color: var(--light-red);
   padding: 0.2rem 1.4rem;
   opacity: 0;
@@ -288,7 +288,7 @@ figcaption {
 
 .email-form .btn-email-form {
   color: inherit;
-  padding-block: 17px;
+  padding-block: 1.0625rem;
   border: 0;
 }
 
@@ -332,8 +332,8 @@ figcaption {
 }
 
 .location img {
-  margin-inline-end: 5px;
-  margin-block-start: 5px;
+  margin-inline-end: 0.3125rem;
+  margin-block-start: 0.3125rem;
 }
 
 .phone {
@@ -359,7 +359,7 @@ figcaption {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .social-list-items a {
@@ -373,7 +373,7 @@ figcaption {
   transition: color 0.3s ease-in-out;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 56.25em) {
   h1 {
     font-size: 2.6rem;
     line-height: 3.8rem;
@@ -381,11 +381,11 @@ figcaption {
   }
 
   .container {
-    max-inline-size: 1226px;
+    max-inline-size: 76.625rem;
   }
 
   .container-wide {
-    max-inline-size: 1310px;
+    max-inline-size: 81.875rem;
   }
 
   .header {
@@ -398,7 +398,7 @@ figcaption {
   }
 
   .nav-list {
-    font-size: 15px;
+    font-size: 0.9375rem;
     gap: 3.6rem;
   }
 
@@ -421,12 +421,12 @@ figcaption {
   }
 
   .all-your-files .container {
-    max-inline-size: 800px;
+    max-inline-size: 50rem;
   }
 
   .all-your-files p {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     padding-inline: 4rem;
   }
 
@@ -475,11 +475,11 @@ figcaption {
   }
 
   .testimonials-container::before {
-    background-size: 60px;
-    width: 60px;
-    height: 60px;
-    top: -40px;
-    left: 24px;
+    background-size: 3.75rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    top: -2.5rem;
+    left: 1.5rem;
     z-index: -1;
   }
 
@@ -498,7 +498,7 @@ figcaption {
   }
 
   .get-early-access .container {
-    max-inline-size: 932px;
+    max-inline-size: 58.25rem;
   }
 
   .get-early-access .container fieldset {
@@ -530,7 +530,7 @@ figcaption {
   }
 
   .location {
-    max-inline-size: 400px;
+    max-inline-size: 25rem;
   }
 
   .footer-nav-list {
