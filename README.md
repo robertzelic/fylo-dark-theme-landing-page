@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://robertzelic.github.io/fylo-dark-theme-landing-page)
+- Live Site URL: [Here](https://robertzelic.github.io/fylo-dark-theme-landing-page)
 
 ## My process
 
